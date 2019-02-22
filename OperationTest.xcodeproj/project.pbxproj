@@ -13,6 +13,8 @@
 		003F316E1FE21A120052AE52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003F316D1FE21A120052AE52 /* Assets.xcassets */; };
 		003F31711FE21A120052AE52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003F316F1FE21A120052AE52 /* LaunchScreen.storyboard */; };
 		003F31741FE21A120052AE52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 003F31731FE21A120052AE52 /* main.m */; };
+		00610AB4221F9FA500A3FD40 /* AsynOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00610AB2221F9FA500A3FD40 /* AsynOperation.m */; };
+		00610AB7221FF2D000A3FD40 /* SynOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00610AB5221FF2D000A3FD40 /* SynOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		003F31701FE21A120052AE52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		003F31721FE21A120052AE52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		003F31731FE21A120052AE52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00610AB2221F9FA500A3FD40 /* AsynOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsynOperation.m; sourceTree = "<group>"; };
+		00610AB3221F9FA500A3FD40 /* AsynOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsynOperation.h; sourceTree = "<group>"; };
+		00610AB5221FF2D000A3FD40 /* SynOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SynOperation.m; sourceTree = "<group>"; };
+		00610AB6221FF2D000A3FD40 /* SynOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynOperation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				003F316F1FE21A120052AE52 /* LaunchScreen.storyboard */,
 				003F31721FE21A120052AE52 /* Info.plist */,
 				003F31731FE21A120052AE52 /* main.m */,
+				00610AB6221FF2D000A3FD40 /* SynOperation.h */,
+				00610AB5221FF2D000A3FD40 /* SynOperation.m */,
+				00610AB3221F9FA500A3FD40 /* AsynOperation.h */,
+				00610AB2221F9FA500A3FD40 /* AsynOperation.m */,
 			);
 			path = RunloopTest;
 			sourceTree = "<group>";
@@ -142,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00610AB4221F9FA500A3FD40 /* AsynOperation.m in Sources */,
 				003F31691FE21A120052AE52 /* ViewController.m in Sources */,
 				003F31741FE21A120052AE52 /* main.m in Sources */,
+				00610AB7221FF2D000A3FD40 /* SynOperation.m in Sources */,
 				003F31661FE21A120052AE52 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
